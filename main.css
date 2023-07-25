@@ -1,0 +1,424 @@
+
+body{
+    display: block;
+    background-color: white;
+    height: 2000px;
+}
+.menu{
+    display: flex;
+    background-color:aqua;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.p{
+   text-align: left;
+}
+.hinhmenu{
+    width: 17%;
+}
+.chumenu{
+    width: 50%;
+    margin-left: 2px;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+.chutrongmenu{
+    justify-content: center;
+    margin-top: 10px;
+}
+.chu{
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-left: 1px solid rgb(177, 205, 246);
+}
+.chu:hover{
+    color: white;
+    text-decoration: none;
+}
+.tim{
+
+    width: 25%;
+    height: 80px;
+    margin-top: 25px;
+ 
+}
+.haha{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    margin-top: 8px;
+}
+.hahaha{
+    width: 75%;
+    border: 2px solid blue;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    text-align: center;
+    outline: none;
+}
+.hahabtn{
+    width: 25%;
+    background-color: dodgerblue;
+    border: 2px solid blue;
+    border-radius: 0 8px 8px 0 ;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+.hahabtn:focus{
+    outline: none;
+}
+.menubtn{
+    width: 8%;
+    display: none;
+}
+.hinhbtn{
+    width: 36px;
+    height: 36px;
+    margin-top: 30px;
+}
+
+.nav__overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.3s;
+}
+
+.nav__mobile{
+ position: fixed;
+ top:0;
+ right: 0;
+ bottom: 0;
+ min-width: 245px ;
+ background-color:white;
+ transform: translateX(100%);
+ transition: transform linear 0.3s,sopacity linear 0.3s ;
+}
+.nav_mobile-list{
+    padding-left: 2px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.nav_mobile-link{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0px;
+    font-size: 1.4rem;
+    
+}
+.nav_mobile-link:hover{
+    color: white;
+    text-decoration: none;
+}
+.nav__mobile-close{
+    width: 28px;
+    height: 28px;
+    color: #666;
+    position: absolute;
+    top: .7rem;
+    right: 1rem;
+}
+.nav_mobile-link:hover{
+    background-color: darkgrey;
+}
+.nav__input:hover{
+    cursor: pointer;
+}
+.nav__input:checked ~ .nav__overlay{
+    display: block;
+}
+.nav__input:checked ~ .nav__mobile{
+    transform: translateX(0%)
+}
+.trangchu{
+    width: 100%;
+}
+
+.trangchu__icon{
+    display: block;
+    width: 58px;
+}
+.trangchu_hinh{
+    margin-top: 20px;
+    display: flex;
+}
+.tittle{
+    margin-top: 20px;
+    text-align: center;
+    color: #84b638;
+    border-top:  .5px solid #84b638;
+}
+.imgsanpham{
+    width: 100%;
+    cursor: pointer;
+}
+.imgsanpham1{
+    width: 100%;
+    height: 400px;
+}
+.trangchu__sanpham__chu:hover{
+    color: #84b638;
+
+} 
+.trangchu__sanpham__chu{
+    text-align: center;
+    
+}
+.trangchu__layer{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.trangchu__item{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.trangchu__item:hover{
+     transform: scale(.9);
+}
+.tittle1{
+    margin-top: 30px;
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    background-color: #333;
+    bottom: 0;
+    height: 350px;
+}
+.footeritem{
+    width: 20px;
+}
+.footer__logo{
+    margin-left: 20px;
+}
+.list__footer{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.thongtinfooter{
+ margin-left: 20px;
+ color: #fff;
+}
+.footer2{
+    text-align: center;
+    color: #84b638;
+
+}
+.chu__footer{
+    padding-left: 5px;
+    text-align: center;
+    color: #fff;
+}
+.end__footer{
+    text-align: center;
+    color: #84b638;
+    border-top: 1px solid #666 ;
+}
+.link__chu  {
+    color: black;
+}
+.img_gioithieu{
+    width: 100%;
+}
+.trangchu__gioithieu{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.imgbanner{
+width: 100%;
+}
+.logo__about{
+    width: 100%;
+   margin-left: 50px;
+}
+.about__main{
+    width: 1000px;
+    margin: auto;
+}
+.trangchu__about{
+    display: flex;
+}
+.fb__about{
+    width: 50%;
+    border-radius: 900px;
+    margin-bottom: 30px;
+    
+}
+.trangchu__sanpham__chu .link__chu{
+    text-decoration: none;
+
+}
+.trangchu__services{
+    display: block;
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+}
+.services1:hover{
+    color: #84b638;
+}
+.img-services{
+    display: block;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    
+}
+.img__serviecs3{
+    margin-top: 70px;
+}
+.services2{
+    width: 100%;
+    height: 1200px;
+}
+.services3{
+    height: 5500px;
+    width: 100%;
+    display: block;
+}
+.list__sanpham{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+button:hover{
+    background-color:rgba(35, 216, 7, 0.864);
+
+}
+.imgsanphamAH6{
+    width: 100%;
+    height: 600px;
+}
+.size{
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 0 30px;  
+}
+.sizes{
+width: 10px;    
+margin-left: 20px;    padding: 0 30px;  
+font-size:  10px;
+border: 1px solid #333;
+border-radius: 999px;
+
+}
+.sizem{
+    width: 10px;
+    margin-left: 20px;
+    padding: 0 30px;  
+    font-size: 10px;
+    border: 1px solid #333;
+    border-radius: 999px;
+}
+.sizel{
+    width: 10px;
+margin-left: 20px;    padding: 0 30px;   
+    font-size: 10px;
+    border: 1px solid #333;
+    border-radius: 999px;
+}
+.btnMua{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.btnMua1{
+    padding-left: 20px;
+}
+.about__item{
+    background-color: aquamarine;
+    height: 200px;
+}
+.imgitem{
+    width: 30px;
+}
+.about__item__AH6{
+    display: flex;
+}
+.about__item__tittle{
+    width: 450px;
+}
+.lienhe{
+    margin-top: 30px;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    border: 2px solid #333;
+    margin-left: 150px
+}
+.form__lienhe{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+}
+.lienhe .form__lienhe input{
+margin: 20px 0;
+box-shadow: black;
+width: 100%;
+border-radius: 40px;
+height: 50px;
+padding-left: 30px;
+outline: none;
+font-family: tahoma;
+
+}
+.btn_box {
+    width: 200px;
+    margin: auto;
+   
+}
+.btn_box button{
+    width: 120px;
+    border-radius: 40px;
+    margin-left: 30px;
+   
+}
+.btn_box button:hover{
+    background-color: #666;
+}
+.message-box {
+    height: 200px;
+    display: block;
+}
+.message-box input{
+    display: block;
+    height: 100px;
+}
+@media (max-width: 1023px){
+    .haha,.chutrongmenu{
+        display: none;
+    }
+}
+@media (max-width: 990px){
+    .menubtn{
+        display: block;
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+   }
+   to{
+    opacity: .5;
+   }
+}
+
+
